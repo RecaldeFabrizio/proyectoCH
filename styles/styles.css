@@ -8,6 +8,7 @@ img{
 }
 body{
     background: url(../images/diy-tools.jpg);
+    margin: 0;
 }
 /*header*/
 
@@ -63,6 +64,7 @@ body{
     display: none;
 }
 /*index*/
+
 #index_section{
     height: 100vh;
     width: 100vw;
@@ -74,9 +76,7 @@ body{
     background-size: cover;
 }
 #index_H1{
-    grid-column: 2 / 3;
-    grid-row: 2 / 3;
-    text-align: center;
+    
     color: rgb(244, 248, 10);
     font-size: 60px;
     font-family: 'Cormorant', serif;
