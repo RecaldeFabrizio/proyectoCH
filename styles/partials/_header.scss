@@ -1,22 +1,25 @@
 #logo{
     font-size: 1.5em;
     font-weight: 900;
+    }
 
     .img_header{
         height: 50px;
         width: 50px;
 
-        #logo_img{
-            height: 50px;
-            width: 50px;
-            margin: 5px; 
-        }
     }
 
-}
+    #logo_img{
+        height: 50px;
+        width: 50px;
+        margin: 5px; 
+    }
+
+
 .nav{
     height: 60px;
     color: #000;
+    }
 
     .nav_container{
         display: flex;
@@ -26,11 +29,13 @@
         margin: 0 auto;
         justify-content: space-between;
         align-items: center;
+        }
 
         .nav_menu{
             display: grid;
             grid-auto-flow: column;
             gap: 3em;
+            }
 
             .nav_item{
                 color: #000;
@@ -39,6 +44,7 @@
                 font-family: 'Cormorant', serif;
                 font-family: 'Noto Serif JP', serif;
                 font-family: 'Quattrocento', serif; 
+                }
                 
                 .nav_item{
                     &::after{
@@ -50,23 +56,27 @@
                     height: 3px;
                     clip-path: var(--clippy);
                     transition: clip-path .5s;
-                }
+                    }
+                    }
 
-                .nav_item{
-                    &:hover{
-                    --clippy: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
-                }
+                    .nav_item{
+                        &:hover{
+                        --clippy: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+                        }
+                    }
 
-                .nav_label, .nav_input{
-                    display: none;
-                }
-                }
-                }
+                
+                
+                
+            
+
+            .nav_label, .nav_input{
+                display: none;
             }
-        }
-    }
+        
+    
 
-}
+
 
 
 
@@ -75,6 +85,7 @@
      .nav_label{
         display: block;
         cursor: pointer;
+        }
 
         .nav_menu{
             position: fixed;
@@ -89,12 +100,12 @@
             align-items: center;
             clip-path: circle(0 at center);
             transition: clip-path 1s ease-in-out;
+            }
 
             .nav_input:checked + .nav_menu{
                 clip-path: circle(100% at center);
             }
-        }
-
-    }
-
 }
+
+    
+
