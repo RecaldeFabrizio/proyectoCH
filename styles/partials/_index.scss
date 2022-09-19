@@ -25,9 +25,9 @@
 #index_section{
         height: 50vh;
         width: 100vw;
-        display: flex;
-        
-        
+        display: grid;
+        grid-template-columns: repeat(3.1fr);
+        grid-template-rows: repeat(3.1fr);
         background: url(../images/diy-tools.jpg);
         background-position: center;
         background-size: cover;
