@@ -1,0 +1,20 @@
+*{
+    padding: 0;  
+    margin: 0;
+    box-sizing: border-box; 
+}
+img{
+    width: 100%;
+}
+body{
+    background: url(../images/diy-tools.jpg);
+    margin: 0;
+}
+
+@import "./partials/footer";
+@import "./partials/footerBootstrap";
+@import "./partials/galeria";
+@import "./partials/header"; 
+@import "./partials/headerBootstrap";
+@import "./partials/index";
+@import "./partials/servicios";
