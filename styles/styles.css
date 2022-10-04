@@ -14,12 +14,20 @@ body {
   margin: 0;
 }
 
+.carpinteria, .electricista, .gas, .plomeria, .albañileria, .construccionEnSeco {
+  display: flex;
+  height: 50vh;
+  width: 100vw;
+  align-items: center;
+  justify-content: center;
+}
+
 footer {
   display: grid;
   justify-content: flex-end;
   height: 50px;
   width: 100vw;
-  background-color: rgba(0, 0, 0, 0.767);
+  background-color: rgba(243, 221, 26, 0.651);
 }
 footer section {
   display: flex;
@@ -126,7 +134,7 @@ footer section div a img {
 
 .nav {
   height: 60px;
-  color: #000;
+  color: rgb(0, 0, 0);
 }
 
 .nav_container {
@@ -146,7 +154,7 @@ footer section div a img {
 }
 
 .nav_item {
-  color: #000;
+  color: rgb(0, 0, 0);
   text-decoration: none;
   --clippy: polygon(0 0, 0 0, 0 100%, 0% 100%);
   font-family: "Cormorant", serif;
@@ -157,7 +165,7 @@ footer section div a img {
 .nav_item::after {
   content: "";
   display: block;
-  background: #000;
+  background: rgb(241, 245, 7);
   width: 90%;
   margin-top: 3px;
   height: 3px;
@@ -266,7 +274,7 @@ footer section div a img {
 .index_H1 {
   display: flex;
   margin: auto;
-  color: rgb(244, 248, 10);
+  color: rgb(241, 245, 7);
   font-size: 60px;
   font-family: "Cormorant", serif;
   font-family: "Noto Serif JP", serif;
@@ -294,66 +302,36 @@ footer section div a img {
   }
 }
 .construccionEnSeco {
-  display: flex;
-  height: 50vh;
-  width: 100vw;
-  align-items: center;
-  justify-content: center;
   background: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/constenseco.jpg);
   background-size: cover;
   background-position: center;
 }
 
 .albañileria {
-  display: flex;
-  height: 50vh;
-  width: 100vw;
-  align-items: center;
-  justify-content: center;
   background: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/albañileria.jpg);
   background-size: cover;
   background-position: center;
 }
 
 .plomeria {
-  display: flex;
-  height: 50vh;
-  width: 100vw;
-  align-items: center;
-  justify-content: center;
   background: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/plomeria.jpg);
   background-size: cover;
   background-position: center;
 }
 
 .gas {
-  display: flex;
-  height: 50vh;
-  width: 100vw;
-  align-items: center;
-  justify-content: center;
   background: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/gas.jpg);
   background-size: cover;
   background-position: center;
 }
 
 .electricista {
-  display: flex;
-  height: 50vh;
-  width: 100vw;
-  align-items: center;
-  justify-content: center;
   background: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/electricidad.jpg);
   background-size: cover;
   background-position: center;
 }
 
 .carpinteria {
-  display: flex;
-  height: 50vh;
-  width: 100vw;
-  align-items: center;
-  justify-content: center;
   background: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/carpinteria.jpg);
   background-size: cover;
   background-position: center;
@@ -362,4 +340,24 @@ footer section div a img {
 .h1_servicios {
   color: rgb(248, 252, 5);
   font-size: 60px;
+}
+
+#BotonCon1 {
+  padding: 10px;
+  border: 0;
+  border-radius: 5px;
+  font-weight: 800;
+  color: rgb(255, 255, 255);
+  background-color: rgb(255, 0, 0);
+  border-bottom: 3px solid rgb(0, 0, 0);
+}
+
+#BotonCon2 {
+  padding: 10px;
+  border: 0;
+  border-radius: 5px;
+  font-weight: 800;
+  color: rgb(255, 255, 255);
+  background-color: rgb(0, 4, 255);
+  border-bottom: 3px solid rgb(0, 0, 0);
 }/*# sourceMappingURL=styles.css.map */

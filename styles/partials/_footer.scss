@@ -3,8 +3,7 @@ footer{
     justify-content: flex-end;
     height: 50px;
     width: 100vw;
-    background-color: rgba(0, 0, 0, 0.767);
-
+    background-color: map-get($colores, backgroundcolorFooter);
     section{
         display: flex;
         justify-content: center;

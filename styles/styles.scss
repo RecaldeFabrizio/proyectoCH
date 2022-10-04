@@ -9,8 +9,10 @@ img{
 body{
     background: url(../images/diy-tools.jpg);
     margin: 0;
-}
-
+} 
+@import "./partials/mixins";
+@import "./partials/extends";
+@import "./partials/maps";
 @import "./partials/footer";
 @import "./partials/footerBootstrap";
 @import "./partials/galeria";
@@ -18,3 +20,4 @@ body{
 @import "./partials/headerBootstrap";
 @import "./partials/index";
 @import "./partials/servicios";
+@import "./partials/contacto";

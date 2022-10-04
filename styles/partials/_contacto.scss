@@ -1,0 +1,7 @@
+#BotonCon1 {
+    @include boton($backColor:rgb(255, 0, 0), $border: 3px solid rgb(0, 0, 0));
+}
+
+#BotonCon2 {
+    @include boton($backColor:rgb(0, 4, 255), $border: 3px solid rgb(0, 0, 0));
+}

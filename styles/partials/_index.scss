@@ -9,7 +9,7 @@
 .index_H1{
     display: flex;
     margin: auto;
-    color: rgb(244, 248, 10);
+    color: map-get($colores, backgroundcolorHeader);
     font-size: 60px;
     font-family: 'Cormorant', serif;
     font-family: 'Noto Serif JP', serif;
